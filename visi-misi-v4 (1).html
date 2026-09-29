@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Visi, misi, dan arah program 2025–2029 SMKS Ciledug Al-Musaddadiyah Garut.">
+<meta name="theme-color" content="#0b3d91">
+<script>document.documentElement.className+=' js'</script>
+<title>Visi & Misi | SMKS Ciledug Al-Musaddadiyah</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#0b3d91;--blue2:#1a56c4;--ink:#16233f;--mut:#5b6885;--gold:#e9a825;--green:#12a37f;--tint:#f3f6fc;--line:#e1e8f5}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',system-ui,sans-serif;color:var(--ink);background:#fff;line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px 56px}
+section{padding-top:80px}
+.tag{display:flex;align-items:center;gap:12px;color:var(--gold);font-weight:700;letter-spacing:.14em;font-size:.8rem;margin-bottom:10px}
+.tag::before{content:"";width:32px;height:3px;border-radius:2px;background:var(--gold)}
+h1{font-size:clamp(2.1rem,5vw,3.7rem);line-height:1.1;font-weight:700;letter-spacing:-.025em;color:var(--blue)}
+h2{font-size:clamp(1.55rem,3vw,2.3rem);line-height:1.2;font-weight:700;letter-spacing:-.02em;color:var(--blue)}
+.g{color:var(--gold)}
+.sub{color:var(--mut);max-width:60ch;margin-top:8px}
+.card{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:0 8px 24px rgba(11,61,145,.07)}
+.ico{flex:none;width:50px;height:50px;border-radius:14px;font-size:1.45rem;display:grid;place-items:center;background:linear-gradient(145deg,#eba936,#f5c852);box-shadow:0 5px 12px rgba(233,168,37,.35)}
+
+/* hero */
+.top{background:linear-gradient(180deg,var(--tint),#fff);margin:0 calc(50% - 50vw);padding:0 calc(50vw - 50%)}
+.hero{text-align:center;padding:56px 0 8px}
+.brand{display:inline-flex;align-items:center;gap:12px;font-weight:700;color:var(--blue);margin-bottom:26px}
+.brand small{display:block;font-weight:500;color:var(--mut);font-size:.82rem;line-height:1.2}
+.hero .tag{justify-content:center}
+.hero p{color:var(--mut);font-size:1.08rem;max-width:58ch;margin:18px auto 0}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);margin:40px 0 -1px;padding:6px 0}
+.fact{padding:18px 10px;border-right:1px solid var(--line)}.fact:last-child{border:0}
+.fact b{display:block;font-size:2.3rem;line-height:1.1;color:var(--blue);font-weight:700}
+.fact span{font-size:.9rem;color:var(--mut)}
+
+/* house */
+.roof{clip-path:polygon(0 30%,50% 0,100% 30%,100% 100%,0 100%);background:linear-gradient(160deg,var(--blue),var(--blue2));color:#fff;text-align:center;padding:76px 6% 30px;margin-top:32px}
+.roof small{font-weight:700;letter-spacing:.14em;font-size:.8rem;color:var(--gold)}
+.roof q{display:block;quotes:none;font-size:clamp(1.05rem,2.1vw,1.5rem);font-weight:600;line-height:1.5;margin-top:4px}
+.pil{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:14px}
+.col{padding:24px 22px;border-top:4px solid var(--c)}
+.col .ic{font-size:1.9rem}
+.col .kw{font-size:1.4rem;font-weight:700;color:var(--c);line-height:1.3;margin:2px 0 8px}
+.col ul{list-style:none;display:grid;gap:6px}
+.col li{font-size:.94rem;color:var(--mut);line-height:1.5;padding-left:16px;position:relative}
+.col li::before{content:"";position:absolute;left:0;top:.6em;width:7px;height:7px;border-radius:50%;background:var(--c)}
+.col li b{color:var(--ink)}
+.base{margin-top:14px;padding:18px 24px;display:flex;gap:16px;align-items:center;border-left:4px solid var(--gold);background:var(--tint);box-shadow:none}
+.base p{color:var(--mut);font-size:.95rem}.base b{color:var(--blue)}
+.found{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}
+.found div{text-align:center;padding:14px;border-radius:16px;background:var(--tint);font-size:.92rem;color:var(--mut)}
+.found b{display:block;color:var(--blue)}
+
+/* journey */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);margin-top:30px}
+.step{padding:24px 26px 24px 24px;margin-right:20px;clip-path:polygon(0 0,calc(100% - 20px) 0,100% 50%,calc(100% - 20px) 100%,0 100%);border-radius:22px 0 0 22px}
+.step:nth-child(1){background:#fdf3dc}.step:nth-child(2){background:#e4edfb}
+.step:nth-child(3){background:#dff5ee;margin-right:0;clip-path:none;border-radius:0 22px 22px 0}
+.step em{font-style:normal;font-weight:700;font-size:.82rem;color:var(--mut)}
+.step h3{font-size:1.2rem;margin:2px 0 4px;color:var(--blue)}
+.step p{font-size:.92rem;color:var(--mut);line-height:1.55}
+.outs{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:14px}
+.out{padding:18px;text-align:center}.out b{font-size:1.4rem;display:block}.out span{color:var(--mut);font-size:.9rem}
+
+/* pictogram */
+.pict{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;margin-top:30px}
+.dots{display:grid;grid-template-columns:repeat(10,1fr);gap:9px;max-width:400px;margin:auto}
+.dots i{aspect-ratio:1;border-radius:50%;background:#e8edf7;transition:background .35s,transform .35s;transform:scale(.72)}
+.dots i.on{transform:scale(1)}
+.lgd{display:grid;gap:12px}
+.lg{display:flex;align-items:center;gap:16px;padding:16px 22px}
+.lg strong{font-size:2.3rem;min-width:70px;line-height:1;font-weight:700}
+.lg p{font-size:.93rem;color:var(--mut);line-height:1.45}.lg p b{display:block;color:var(--ink);font-size:1rem}
+.note{color:var(--mut);font-size:.88rem;text-align:center}
+
+/* jurusan */
+.jg{display:grid;grid-template-columns:repeat(auto-fill,minmax(245px,1fr));gap:14px;margin-top:30px}
+.jur{padding:22px}
+.jt{display:flex;gap:12px;align-items:center}
+.jt .ico{width:44px;height:44px;font-size:1.25rem}
+.code{font-size:1.35rem;font-weight:700;color:var(--blue);line-height:1}
+.nm{font-size:.8rem;color:var(--mut);line-height:1.3}
+.m{display:flex;align-items:baseline;gap:10px;margin-top:12px;padding-top:12px;border-top:1px solid var(--line)}
+.m b{font-size:1.6rem;min-width:70px;line-height:1.1;color:var(--gold)}.m span{font-size:.87rem;color:var(--mut);line-height:1.4}
+.mou{background:var(--blue);border-color:var(--blue);display:grid;place-content:center;text-align:center;color:#fff}
+.mou b{font-size:2.5rem;color:var(--gold);line-height:1.1;display:block}.mou span{font-size:.92rem;color:#dbe6ff}
+
+/* accordion */
+.acc{display:grid;gap:12px;margin-top:30px}
+details{border-radius:20px;background:#fff;border:1px solid var(--line);box-shadow:0 6px 18px rgba(11,61,145,.06);overflow:hidden}
+details[open]{border-color:#b9cbef}
+summary{list-style:none;cursor:pointer;display:flex;gap:16px;align-items:center;padding:16px 22px}
+summary::-webkit-details-marker{display:none}
+summary h3{flex:1;font-size:1.05rem;font-weight:600;line-height:1.35;color:var(--blue)}
+summary small{display:block;color:var(--mut);font-size:.84rem;font-weight:400}
+summary::after{content:"+";font-size:1.7rem;color:var(--gold);line-height:1;transition:transform .25s}
+details[open] summary::after{transform:rotate(45deg)}
+.bd{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;padding:4px 24px 24px 88px}
+.bd h5{color:var(--gold);font-size:.85rem;margin-bottom:4px;letter-spacing:.06em}
+.bd p,.bd li{font-size:.93rem;color:var(--mut);line-height:1.6}
+.bd ul,.bd ol{padding-left:1.1rem}.bd li::marker{color:var(--gold)}
+
+/* gauges */
+.gauges{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}
+.gauge{padding:26px 16px;text-align:center}
+.ring{width:128px;height:128px;border-radius:50%;margin:0 auto 12px;display:grid;place-items:center;background:conic-gradient(var(--blue) calc(var(--p)*1%),#e8edf7 0)}
+.ring span{width:100px;height:100px;border-radius:50%;background:#fff;display:grid;place-items:center;font-weight:700;font-size:1.4rem;color:var(--blue)}
+.gauge p{font-size:.92rem;color:var(--mut)}.gauge p b{display:block;color:var(--ink)}
+.ts{overflow-x:auto;margin-top:30px;border-radius:20px;border:1px solid var(--line)}
+table{width:100%;border-collapse:collapse;min-width:500px}
+th,td{text-align:left;padding:14px 24px}
+th{background:var(--blue);color:#fff;font-size:.92rem}
+td{color:var(--mut);border-bottom:1px solid var(--line)}td:first-child{color:var(--blue);font-weight:700}tr:last-child td{border:0}
+footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:var(--mut);font-size:.88rem;text-align:center}
+
+@media(max-width:860px){
+ .facts{grid-template-columns:1fr 1fr}.fact:nth-child(2){border:0}
+ .pil,.found,.outs,.gauges,.pict,.bd,.steps{grid-template-columns:1fr}
+ .bd{padding:2px 22px 22px}
+ .steps{gap:10px}.step,.step:nth-child(3){clip-path:none;border-radius:18px;margin:0}
+ .roof{padding:62px 5% 24px}
+}
+@media(max-width:520px){.wrap{padding:0 16px 40px}section{padding-top:60px}summary{padding:14px 16px}}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.gearbox{max-width:660px;margin:28px auto 0;padding:22px 22px 18px;text-align:center}
+.gearbox>b{color:var(--blue);font-size:1.1rem}.gearbox>span{display:block;color:var(--mut);font-size:.9rem}
+.gearbox svg{width:100%;height:auto;display:block;margin:6px 0}
+.gr{animation:spin linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.gl{font:700 15px 'DM Sans',sans-serif;fill:#0b3d91}.gs{font:400 12px 'DM Sans',sans-serif;fill:#5b6885}
+.faq{grid-template-columns:1fr 1fr;align-items:start}
+.faq summary{padding:16px 22px}.faq summary h3{font-size:1rem}
+.fa{padding:0 22px 20px;color:var(--mut);font-size:.94rem;line-height:1.65}.fa b{color:var(--blue)}
+.ask{margin-top:18px;padding:22px 26px;display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:var(--tint)}
+.ask b{display:block;color:var(--blue);font-size:1.15rem}.ask span{color:var(--mut);font-size:.92rem}
+.btns{display:flex;gap:10px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 22px;border-radius:999px;background:var(--blue);color:#fff;font-weight:600;text-decoration:none;transition:background .2s,translate .2s}
+.btn:hover{background:var(--blue2);translate:0 -2px}.btn.alt{background:#fff;color:var(--blue);border:1.5px solid var(--blue)}
+.btn.alt:hover{background:var(--tint)}
+@media(max-width:860px){.faq{grid-template-columns:1fr}}
+@property --p{syntax:'<number>';inherits:false;initial-value:0}
+#bar{position:fixed;top:0;left:0;right:0;height:3px;z-index:9;background:linear-gradient(90deg,var(--gold),var(--blue2));transform:scaleX(0);transform-origin:0 50%}
+/* hero: orb lembut + animasi masuk berurutan */
+.top{position:relative;overflow:hidden}
+.top::before,.top::after{content:"";position:absolute;border-radius:50%;filter:blur(70px);opacity:.45;pointer-events:none;animation:drift 14s ease-in-out infinite alternate}
+.top::before{width:340px;height:340px;background:#bcd0f7;left:-80px;top:-60px}
+.top::after{width:300px;height:300px;background:#fbe3a8;right:-60px;top:80px;animation-delay:-6s}
+.hero{position:relative;z-index:1}
+.hero>*{animation:up .8s cubic-bezier(.2,.7,.2,1) both}
+.hero>:nth-child(2){animation-delay:.1s}.hero>:nth-child(3){animation-delay:.2s}.hero>:nth-child(4){animation-delay:.3s}.hero>:nth-child(5){animation-delay:.4s}
+@keyframes drift{to{transform:translate(60px,40px) scale(1.15)}}
+@keyframes up{from{opacity:0;transform:translateY(20px)}}
+/* muncul saat digulir */
+.js .rv{opacity:0;transform:translateY(24px);transition:opacity .7s ease var(--d,0s),transform .7s cubic-bezier(.2,.7,.2,1) var(--d,0s),translate .25s ease 0s,box-shadow .25s ease 0s}
+.js .rv.in{opacity:1;transform:none}
+section h2::after{content:"";display:block;height:4px;width:0;background:var(--gold);border-radius:2px;margin-top:10px;transition:width .8s .3s ease}
+section h2.in::after{width:56px}
+/* hover */
+.card:not(.facts):not(.base):hover{translate:0 -5px;box-shadow:0 16px 34px rgba(11,61,145,.15)}
+.col:hover .ic,.jur:hover .ico{animation:wig .6s}
+@keyframes wig{30%{transform:rotate(-8deg) scale(1.1)}60%{transform:rotate(6deg) scale(1.05)}}
+/* kilau pada atap visi */
+.roof{position:relative;overflow:hidden}
+.roof::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(105deg,transparent 40%,rgba(255,255,255,.28) 50%,transparent 60%);transform:translateX(-100%)}
+.roof.in::after{animation:shine 1.8s .6s ease 1 forwards}
+@keyframes shine{to{transform:translateX(100%)}}
+.ring{transition:--p 1.6s cubic-bezier(.2,.7,.2,1)}
+details[open] .bd{animation:dn .35s ease}
+@keyframes dn{from{opacity:0;transform:translateY(-6px)}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.js .rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div id="bar" aria-hidden="true"></div>
+<main class="wrap">
+
+<div class="top"><header class="hero">
+  <div class="brand"><div>SMK Ciledug Al-Musaddadiyah<small>CALM · Garut</small></div></div>
+  <div class="tag">VISI &amp; MISI</div>
+  <h1>Membangun Generasi<br><span class="g">Berakhlak &amp; Berdaya Saing</span></h1>
+  <p>Sejak 1996, SMK Ciledug Al-Musaddadiyah di bawah naungan Yayasan Al-Musaddadiyah berkomitmen menghadirkan pendidikan bermutu yang menggabungkan nilai keislaman, keunggulan akademik, dan keterampilan vokasional.</p>
+  <div class="card facts">
+    <div class="fact"><b>1996</b><span>Tahun berdiri</span></div>
+    <div class="fact"><b>7</b><span>Program keahlian</span></div>
+    <div class="fact"><b>28</b><span>Target MoU DUDI</span></div>
+    <div class="fact"><b>95%</b><span>Target lulusan terserap</span></div>
+  </div>
+</header></div>
+
+<section>
+  <div class="tag">PETA STRATEGI</div>
+  <h2>Satu visi, tiga pilar, satu fondasi</h2>
+  <div class="roof"><small>VISI 2029</small><q>Terwujudnya Lulusan SMKS Ciledug Al Musaddadiyah yang Beradab, Kompeten, dan Berdaya Saing untuk Bekerja, Melanjutkan Studi, dan Berwirausaha di Tahun 2029</q></div>
+  <div class="pil">
+    <div class="card col" style="--c:var(--gold)"><div class="ic">🕌</div><div class="kw">Beradab</div><ul><li><b>Misi 1</b> Karakter pesantren</li></ul></div>
+    <div class="card col" style="--c:var(--blue)"><div class="ic">🛠️</div><div class="kw">Kompeten</div><ul><li><b>Misi 2</b> Keahlian 7 konsentrasi</li></ul></div>
+    <div class="card col" style="--c:var(--green)"><div class="ic">🚀</div><div class="kw">Berdaya Saing</div><ul><li><b>Misi 3</b> Bekerja</li><li><b>Misi 4</b> Melanjutkan studi</li><li><b>Misi 5</b> Berwirausaha</li></ul></div>
+  </div>
+  <div class="card base"><div class="ico">🏛️</div><p><b>Misi 6: Tata Kelola Unggul</b> menjadi fondasi seluruh misi: BOSP tertib, Dapodik akurat, EDS berbasis data.</p></div>
+  <div class="found"><div><b>Iman &amp; Akhlak</b>Menanamkan nilai-nilai Islam sebagai landasan karakter siswa yang berintegritas tinggi.</div><div><b>Ilmu &amp; Kompetensi</b>Kurikulum relevan dan fasilitas modern untuk mempersiapkan siswa menghadapi dunia kerja.</div><div><b>Inovasi &amp; Prestasi</b>Mendorong siswa berprestasi di tingkat Kabupaten, Provinsi, hingga nasional.</div></div>
+</section>
+
+<section>
+  <div class="tag">PERJALANAN SISWA</div>
+  <h2>Dari bangku sekolah menuju masa depan</h2>
+  <div class="steps">
+    <div class="step"><em>TAHAP 1</em><h3>Tumbuh Beradab</h3><p>Sholat berjamaah, tahfidz, budaya 5S.</p></div>
+    <div class="step"><em>TAHAP 2</em><h3>Menjadi Kompeten</h3><p>Teaching Factory dan sertifikasi industri.</p></div>
+    <div class="step"><em>TAHAP 3</em><h3>Siap Berdaya Saing</h3><p>BKK, kelas industri, bimbel, inkubator usaha.</p></div>
+  </div>
+  <div class="outs">
+    <div class="card out"><b class="g">Bekerja</b><span>Tunggu kerja &lt; 3 bulan</span></div>
+    <div class="card out"><b style="color:var(--blue)">Melanjutkan Studi</b><span>PTN dan Politeknik</span></div>
+    <div class="card out"><b style="color:var(--green)">Berwirausaha</b><span>Usaha mandiri ber-NIB</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="tag">TARGET LULUSAN</div>
+  <h2>Jika 100 siswa lulus pada 2029</h2>
+  <p class="sub">Satu lingkaran mewakili satu lulusan.</p>
+  <div class="pict">
+    <div class="dots" id="dots" aria-label="100 lulusan: 60 bekerja, 20 melanjutkan studi, 15 berwirausaha"></div>
+    <div class="lgd">
+      <div class="card lg"><strong style="color:var(--gold)">60</strong><p><b>Bekerja (B)</b>Terserap di dunia usaha dan industri</p></div>
+      <div class="card lg"><strong style="color:var(--blue2)">20</strong><p><b>Melanjutkan Studi (M)</b>SNBP, SNBT, atau Politeknik</p></div>
+      <div class="card lg"><strong style="color:var(--green)">15</strong><p><b>Berwirausaha (W)</b>Punya usaha sendiri (NIB)</p></div>
+      <div class="note">Total 95 dari 100 lulusan terserap.</div>
+    </div>
+  </div>
+  <div class="card gearbox">
+    <b>Tiga jalur, satu sistem</b>
+    <svg id="gears" viewBox="0 0 470 240" role="img" aria-label="Roda gigi saling bertaut: bekerja 60 persen, melanjutkan studi 20 persen, berwirausaha 15 persen"></svg>
+    <span>Karakter, kompetensi, dan tata kelola menggerakkan ketiga jalur secara bersamaan.</span>
+  </div>
+</section>
+
+<section>
+  <div class="tag">MISI 2 · KOMPETEN</div>
+  <h2>Tujuh keahlian, tujuh target nyata</h2>
+  <div class="jg">
+    <div class="card jur"><div class="jt"><div class="ico">🌐</div><div><div class="code">TJKT</div><div class="nm">Teknik Jaringan Komputer dan Telekomunikasi</div></div></div><div class="m"><b>100%</b><span>bersertifikat MTCNA</span></div><div class="m"><b>100</b><span>rumah terpasang WiFi oleh siswa</span></div></div>
+    <div class="card jur"><div class="jt"><div class="ico">🎨</div><div><div class="code">DKV</div><div class="nm">Desain Komunikasi Visual</div></div></div><div class="m"><b>100%</b><span>Adobe Certified</span></div><div class="m"><b>50</b><span>desain UMKM terjual</span></div></div>
+    <div class="card jur"><div class="jt"><div class="ico">🗂️</div><div><div class="code">MP</div><div class="nm">Manajemen Perkantoran</div></div></div><div class="m"><b>100%</b><span>menguasai aplikasi perkantoran digital</span></div></div>
+    <div class="card jur"><div class="jt"><div class="ico">🛒</div><div><div class="code">BD</div><div class="nm">Bisnis Digital</div></div></div><div class="m"><b>Rp50 jt</b><span>omset Toko Online Sekolah per tahun</span></div></div>
+    <div class="card jur"><div class="jt"><div class="ico">🚗</div><div><div class="code">TKRO</div><div class="nm">Teknik Kendaraan Ringan Otomotif</div></div></div><div class="m"><b>200</b><span>mobil diservis per tahun</span></div></div>
+    <div class="card jur"><div class="jt"><div class="ico">🏍️</div><div><div class="code">TSM</div><div class="nm">Teknik Sepeda Motor</div></div></div><div class="m"><b>400</b><span>motor diservis per tahun</span></div></div>
+    <div class="card jur"><div class="jt"><div class="ico">📊</div><div><div class="code">AKL</div><div class="nm">Akuntansi Keuangan Lembaga</div></div></div><div class="m"><b>100%</b><span>Accurate Certified</span></div><div class="m"><b>50</b><span>laporan keuangan UMKM</span></div></div>
+    <div class="card jur mou"><div><b>28 MoU</b><span>dengan DUDI, 4 untuk setiap jurusan</span></div></div>
+  </div>
+</section>
+
+<section>
+  <div class="tag">RINCIAN MISI</div>
+  <h2>Tujuan, strategi, dan indikator</h2>
+  <div class="acc">
+    <details open><summary><div class="ico">🕌</div><h3>Misi 1: Beradab, Karakter Pesantren Al Musaddadiyah<small>Turunan dari kata “Beradab”</small></h3></summary><div class="bd"><div><h5>TUJUAN</h5><p>Peserta didik berakhlak mulia, disiplin, dan berbudaya pesantren.</p></div><div><h5>STRATEGI</h5><ol><li>Sholat Dhuha &amp; Dhuhur berjamaah</li><li>Tahfidz Juz 30 &amp; Kitab Kuning dasar</li><li>Budaya 5S (Senyum, Salam, Sapa, Sopan, Santun)</li></ol></div><div><h5>INDIKATOR 2029</h5><ul><li>100% siswa hafal Juz 30 minimal 2 Juz</li><li>0% pelanggaran berat tata tertib</li><li>Predikat Sekolah Berbudaya</li></ul></div></div></details>
+    <details><summary><div class="ico">🛠️</div><h3>Misi 2: Kompeten, Penguasaan Keahlian 7 Konsentrasi<small>Turunan dari kata “Kompeten”</small></h3></summary><div class="bd"><div><h5>TUJUAN</h5><p>Lulusan kompeten di bidangnya dan bersertifikat industri.</p></div><div><h5>STRATEGI</h5><ul><li>Teaching Factory (TEFA)</li><li>28 MoU DUDI (4 per jurusan)</li></ul></div><div><h5>INDIKATOR 2029</h5><p>Target tiap jurusan tersaji pada bagian “Tujuh keahlian, tujuh target nyata”.</p></div></div></details>
+    <details><summary><div class="ico">💼</div><h3>Misi 3: Berdaya Saing untuk Bekerja (B)<small>Turunan dari BMW – Bekerja</small></h3></summary><div class="bd"><div><h5>TUJUAN</h5><p>95% lulusan terserap kerja sebelum 6 bulan lulus.</p></div><div><h5>STRATEGI</h5><ul><li>BKK aktif per jurusan</li><li>Kelas Industri</li><li>Job Fair</li></ul></div><div><h5>INDIKATOR</h5><ul><li>Bekerja 60% dari total lulusan</li><li>Masa tunggu kerja kurang dari 3 bulan</li></ul></div></div></details>
+    <details><summary><div class="ico">🎓</div><h3>Misi 4: Berdaya Saing untuk Melanjutkan Studi (M)<small>Turunan dari BMW – Melanjutkan</small></h3></summary><div class="bd"><div><h5>TUJUAN</h5><p>20% lulusan melanjutkan ke PTN/Politeknik.</p></div><div><h5>STRATEGI</h5><ul><li>Bimbel KIP Kuliah</li><li>MoU dengan Politeknik Negeri Bandung &amp; Tel-U</li></ul></div><div><h5>INDIKATOR</h5><ul><li>20% lolos SNBP/SNBT/Politeknik</li></ul></div></div></details>
+    <details><summary><div class="ico">🏪</div><h3>Misi 5: Berdaya Saing untuk Berwirausaha (W)<small>Turunan dari BMW – Wirausaha</small></h3></summary><div class="bd"><div><h5>TUJUAN</h5><p>15% lulusan menjadi wirausaha mandiri.</p></div><div><h5>STRATEGI</h5><ul><li>BLUD SMK 7 Divisi</li><li>Inkubator Wirausaha Santri</li></ul></div><div><h5>INDIKATOR</h5><ul><li>Omset BLUD Rp250 juta/tahun dari 7 unit</li><li>15% lulusan punya usaha sendiri (NIB)</li></ul></div></div></details>
+    <details><summary><div class="ico">🏆</div><h3>Misi 6: Tata Kelola Unggul<small>Turunan dari Target 2029</small></h3></summary><div class="bd"><div><h5>TUJUAN</h5><p>SMK dengan tata kelola transparan dan Akreditasi UNGGUL.</p></div><div><h5>STRATEGI</h5><ul><li>BOSP tertib via SIPLah</li><li>Dapodik akurat</li><li>EDS berbasis data</li></ul></div><div><h5>INDIKATOR 2029</h5><ul><li>Akreditasi BAN-PDM: UNGGUL</li><li>Nilai EDS di atas 95</li><li>Laporan BOSP 100% audit tanpa temuan</li></ul></div></div></details>
+  </div>
+</section>
+
+<section>
+  <div class="tag">MISI 6 · TATA KELOLA</div>
+  <h2>Sekolah yang transparan dan akuntabel</h2>
+  <div class="gauges">
+    <div class="card gauge"><div class="ring" style="--p:100"><span>UNGGUL</span></div><p><b>Akreditasi BAN-PDM</b>Target peringkat tertinggi</p></div>
+    <div class="card gauge"><div class="ring" style="--p:95"><span>&gt; 95</span></div><p><b>Nilai EDS</b>Evaluasi diri berbasis data</p></div>
+    <div class="card gauge"><div class="ring" style="--p:100"><span>100%</span></div><p><b>Laporan BOSP</b>Audit tanpa temuan</p></div>
+  </div>
+  <div class="ts"><table>
+    <thead><tr><th>Visi</th><th>Misi</th><th>Indikator</th></tr></thead>
+    <tbody><tr><td>Beradab</td><td>Pesantren</td><td>100% Tahfidz</td></tr><tr><td>Kompeten</td><td>7 Jurusan</td><td>100% Sertifikasi</td></tr><tr><td>BMW</td><td>Kerja – Kuliah – Wirausaha</td><td>95% Terserap</td></tr></tbody>
+  </table></div>
+</section>
+
+<section>
+  <div class="tag">FAQ</div>
+  <h2>Pertanyaan yang sering diajukan</h2>
+  <div class="faq acc">
+    <details><summary><h3>Apa visi sekolah untuk tahun 2029?</h3></summary><div class="fa">Terwujudnya lulusan SMKS Ciledug Al Musaddadiyah yang Beradab, Kompeten, dan Berdaya Saing untuk Bekerja, Melanjutkan Studi, dan Berwirausaha di Tahun 2029.</div></details>
+    <details><summary><h3>Apa arti “Beradab, Kompeten, dan Berdaya Saing”?</h3></summary><div class="fa"><b>Beradab</b>: berakhlak mulia, disiplin, dan berbudaya pesantren. <b>Kompeten</b>: menguasai keahlian dan bersertifikat industri. <b>Berdaya Saing</b>: siap bersaing di dunia kerja, perguruan tinggi, dan usaha mandiri.</div></details>
+    <details><summary><h3>Apa itu BMW?</h3></summary><div class="fa">BMW adalah tiga jalur lulusan: <b>B</b>ekerja, <b>M</b>elanjutkan studi, dan <b>W</b>irausaha. Targetnya 60% bekerja, 20% melanjutkan studi, dan 15% berwirausaha.</div></details>
+    <details><summary><h3>Berapa target lulusan yang terserap?</h3></summary><div class="fa">Target keterserapan adalah 95% lulusan. Masa tunggu kerja ditargetkan kurang dari 3 bulan.</div></details>
+    <details><summary><h3>Apa saja program keahliannya?</h3></summary><div class="fa">Ada 7 program keahlian: TJKT, DKV, MP, BD, TKRO, TSM, dan AKL.</div></details>
+    <details><summary><h3>Apa itu Teaching Factory (TEFA)?</h3></summary><div class="fa">Pembelajaran lewat proyek dan layanan nyata, misalnya servis kendaraan, desain untuk UMKM, atau pemasangan WiFi. Didukung 28 MoU dengan DUDI, 4 MoU untuk setiap jurusan.</div></details>
+    <details><summary><h3>Bagaimana sekolah membina karakter siswa?</h3></summary><div class="fa">Melalui sholat Dhuha dan Dhuhur berjamaah, tahfidz Juz 30, kitab kuning dasar, dan budaya 5S (Senyum, Salam, Sapa, Sopan, Santun). Targetnya seluruh siswa hafal minimal 2 Juz.</div></details>
+    <details><summary><h3>Sertifikasi apa yang ditargetkan?</h3></summary><div class="fa">TJKT: MTCNA. DKV: Adobe Certified. AKL: Accurate Certified. MP: penguasaan aplikasi perkantoran digital. Targetnya 100% siswa di masing-masing jurusan.</div></details>
+    <details><summary><h3>Bagaimana kualitas tata kelola diukur?</h3></summary><div class="fa">Melalui Akreditasi BAN-PDM peringkat UNGGUL, nilai EDS di atas 95, dan laporan BOSP yang diaudit tanpa temuan. Pengelolaan dilakukan lewat SIPLah dan Dapodik.</div></details>
+    <details><summary><h3>Bagaimana cara mendaftar atau bertanya?</h3></summary><div class="fa">Informasi pendaftaran tersedia di website resmi sekolah, atau hubungi sekolah langsung lewat WhatsApp.</div></details>
+  </div>
+  <div class="card ask"><div><b>Masih ada pertanyaan?</b><span>Kami siap membantu.</span></div><div class="btns"><a class="btn" href="https://www.smkciledugalmusaddadiyah.sch.id/p/ppdb-online-smk-ciledug-al-musaddadiyah.html" target="_blank" rel="noopener">Info Pendaftaran</a><a class="btn alt" href="https://wa.me/6287856681523" target="_blank" rel="noopener">WhatsApp</a></div></div>
+</section>
+
+<footer>© SMKS Ciledug Al-Musaddadiyah · Yayasan Al-Musaddadiyah Garut · Sejak 1996</footer>
+</main>
+<script>
+(function(){
+  var d=document.getElementById('dots'),cols=['#e9a825','#1a56c4','#12a37f','#c3cde3'],map=[60,20,15,5],dots=[];
+  map.forEach(function(n,k){for(var i=0;i<n;i++){var e=document.createElement('i');e.dataset.c=cols[k];d.appendChild(e);dots.push(e)}});
+  function fill(){dots.forEach(function(e,i){setTimeout(function(){e.style.background=e.dataset.c;e.classList.add('on')},i*18)})}
+  if('IntersectionObserver' in window&&!matchMedia('(prefers-reduced-motion:reduce)').matches){
+    new IntersectionObserver(function(en,o){if(en[0].isIntersecting){fill();o.disconnect()}},{threshold:.4}).observe(d)
+  }else{dots.forEach(function(e){e.style.background=e.dataset.c;e.classList.add('on')})}
+  function h(){if(h.t)return;h.t=requestAnimationFrame(function(){h.t=0;try{parent.postMessage({type:'iframe-height',height:document.documentElement.scrollHeight},'*')}catch(e){}})}
+  addEventListener('load',h);addEventListener('resize',h);
+  if(window.ResizeObserver)new ResizeObserver(h).observe(document.body);
+})();
+</script>
+<script>
+(function(){
+  var svg=document.getElementById('gears');if(!svg)return;
+  function path(pr,n,rot){var s=360/n,d='',r0=pr-4,r1=pr+4;
+    for(var k=0;k<n;k++){[[r0,-.46],[r1,-.2],[r1,.2],[r0,.46]].forEach(function(q){var t=(k*s+rot+q[1]*s)*Math.PI/180;d+=(d?'L':'M')+(q[0]*Math.cos(t)).toFixed(1)+' '+(q[0]*Math.sin(t)).toFixed(1)})}
+    return d+'Z'}
+  var G=[{x:120,y:120,pr:90,n:24,rot:0,c:'#e9a825',dir:'normal',dur:24,t:'60%',fs:34,sub:'Bekerja'},
+         {x:236.9,y:52.5,pr:45,n:12,rot:15,c:'#1a56c4',dir:'reverse',dur:12,t:'20%',fs:19},
+         {x:230.4,y:183.8,pr:37.5,n:10,rot:12,c:'#12a37f',dir:'reverse',dur:10,t:'15%',fs:15}];
+  var h='';
+  G.forEach(function(g){
+    h+='<g transform="translate('+g.x+' '+g.y+')"><path class="gr" d="'+path(g.pr,g.n,g.rot)+'" fill="'+g.c+'" style="animation-duration:'+g.dur+'s;animation-direction:'+g.dir+'"/><circle r="'+(g.pr-13)+'" fill="#fff"/>'
+     +'<text text-anchor="middle" y="'+(g.sub?4:g.fs/3)+'" font-family="DM Sans,sans-serif" font-weight="700" font-size="'+g.fs+'" fill="'+g.c+'">'+g.t+'</text>'
+     +(g.sub?'<text text-anchor="middle" y="28" font-family="DM Sans,sans-serif" font-size="14" fill="#5b6885">'+g.sub+'</text>':'')+'</g>'});
+  h+='<text class="gl" x="298" y="48">Melanjutkan Studi</text><text class="gs" x="298" y="66">SNBP · SNBT · Politeknik</text>'
+    +'<text class="gl" x="284" y="182">Berwirausaha</text><text class="gs" x="284" y="200">Usaha mandiri ber-NIB</text>';
+  svg.innerHTML=h;
+})();
+</script>
+<script>
+(function(){
+  var rm=matchMedia('(prefers-reduced-motion:reduce)').matches,bar=document.getElementById('bar'),tk=false;
+  function pr(){var m=document.documentElement.scrollHeight-innerHeight;bar.style.transform='scaleX('+(m>0?scrollY/m:0)+')';tk=false}
+  addEventListener('scroll',function(){if(!tk){tk=true;requestAnimationFrame(pr)}},{passive:true});
+
+  var rings=[].slice.call(document.querySelectorAll('.ring'));
+  rings.forEach(function(r){r.dataset.t=r.style.getPropertyValue('--p');if(!rm)r.style.setProperty('--p',0)});
+
+  function count(el){
+    var t=el.textContent,n=parseFloat(t);if(isNaN(n)||rm)return;
+    var suf=t.replace(/[\d.]/g,''),from=n>1000?n-100:0,st=null;
+    (function f(ts){st=st||ts;var p=Math.min((ts-st)/1400,1),e=1-Math.pow(1-p,3);el.textContent=Math.round(from+(n-from)*e)+suf;if(p<1)requestAnimationFrame(f)})(performance.now());
+  }
+
+  var els=[].slice.call(document.querySelectorAll('section .tag,h2,.sub,.card,.step,.found div,details,.roof')).filter(function(e){return !e.closest('.hero')});
+  els.forEach(function(e){e.classList.add('rv');e.style.setProperty('--d',Math.min([].indexOf.call(e.parentNode.children,e),5)*70+'ms')});
+
+  function show(e){
+    e.classList.add('in');
+    if(e.classList.contains('gauge')){var r=e.querySelector('.ring');requestAnimationFrame(function(){r.style.setProperty('--p',r.dataset.t)})}
+  }
+  var facts=document.querySelector('.facts');
+  if(!('IntersectionObserver' in window)||rm){els.forEach(function(e){e.classList.add('in')});rings.forEach(function(r){r.style.setProperty('--p',r.dataset.t)});return}
+  var io=new IntersectionObserver(function(list){list.forEach(function(x){if(x.isIntersecting){show(x.target);io.unobserve(x.target)}})},{threshold:.15,rootMargin:'0px 0px -40px 0px'});
+  els.forEach(function(e){io.observe(e)});
+  var fo=new IntersectionObserver(function(l){if(l[0].isIntersecting){[].forEach.call(facts.querySelectorAll('b'),count);fo.disconnect()}},{threshold:.5});
+  fo.observe(facts);
+})();
+</script>
+<script>
+(function(){
+  var f=[].slice.call(document.querySelectorAll('.faq details'));
+  f.forEach(function(d){d.addEventListener('toggle',function(){if(d.open)f.forEach(function(o){if(o!==d)o.open=false})})});
+})();
+</script>
+</body>
+</html>
